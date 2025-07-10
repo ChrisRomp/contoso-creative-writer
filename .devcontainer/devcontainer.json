@@ -40,6 +40,7 @@
     },
     "forwardPorts": [
         5173,
-	8000
-	]
+        8000
+    ],
+    "postCreateCommand": "echo 'alias ll=\"ls -alh\"\nalias tf=terraform' >> ~/.bash_aliases && source ~/.bash_aliases"
 }
