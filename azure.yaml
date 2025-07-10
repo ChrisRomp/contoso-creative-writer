@@ -27,7 +27,7 @@ hooks:
       interactive: true
       run: infra/hooks/postprovision.ps1
 infra:
-    provider: "bicep"
+    provider: terraform
 
 pipeline:
   variables:
