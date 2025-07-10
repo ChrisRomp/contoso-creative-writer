@@ -14,10 +14,11 @@
         "ghcr.io/devcontainers/features/git:1": {},
         "ghcr.io/azure/azure-dev/azd:latest": {},
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-		"ghcr.io/devcontainers/features/node:1": {
+        "ghcr.io/devcontainers/features/node:1": {
             "version": "22.14"
         },
-	"ghcr.io/devcontainers/features/github-cli:1": {}
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+        "ghcr.io/devcontainers/features/terraform:1": {}
     },
     "customizations": {
         "vscode": {
@@ -32,7 +33,8 @@
 				"GitHub.vscode-github-actions",
 				"ms-azuretools.azure-dev",
 				"ms-python.black-formatter",
-                "ms-toolsai.prompty@0.1.2024092301"
+                "ms-toolsai.prompty@0.1.2024092301",
+                "hashicorp.terraform"
             ]
         }
     },
