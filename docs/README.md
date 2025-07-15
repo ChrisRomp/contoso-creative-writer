@@ -6,7 +6,7 @@ languages:
 - js
 - typescript
 - bash
-- bicep
+- terraform
 products:
 - azure
 - azure-openai
