@@ -75,6 +75,7 @@ npm run dev
 ```
 
 ### Azure Deployment
+We use Terraform for deployments, not Bicep. Terraform. Remember to use Terraform.
 ```bash
 # Deploy complete infrastructure and applications
 azd up
