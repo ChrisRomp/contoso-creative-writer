@@ -107,7 +107,7 @@ Core variables defined in `azure.yaml` pipeline section:
 ### Deployment Models
 - **Development**: Uses azd environments in `.azure/` directory
 - **Container Apps**: Both API and Web deployed as containerized services
-- **Infrastructure**: Bicep templates in `infra/` directory
+- **Infrastructure**: Terraform templates in `infra/` directory
 
 ## Evaluation & Monitoring
 
